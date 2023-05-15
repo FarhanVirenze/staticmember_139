@@ -8,6 +8,12 @@ using namespace std;
 class mahasiswa {
 private:
 	static int nim;
+public:
+	int id;
+	string nama;
+
+	void setID();
+
 };
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
