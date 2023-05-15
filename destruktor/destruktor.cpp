@@ -12,10 +12,25 @@ public:
 	angka(int); //Constructor
 	~angka(); //Destructor
 	void cetakData();
-
+	void isiData(); 
 };
+//Definisi Member Function
+angka::angka(int i){ //Constructor
+	panjang = 1;
+	arr = new int[i];
+	isiData();
+}
 
+angka::~angka() { //Destructor
+	cout << endl;
+	cetakData();
+	delete[]arr;
+	cout << "Alamat Array Sudah Dilepaskan" << endl;
+}
 
+void angka::cetakData() {
+
+}
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
