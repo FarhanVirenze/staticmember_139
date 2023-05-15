@@ -5,6 +5,8 @@ VisualStudioVersion = 17.5.33414.496
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "staticmember_139", "staticmember_139\staticmember_139.vcxproj", "{337CD6A4-F559-4FBF-8BE3-AA2ED3FE1DAE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "chainfunction", "chainfunction\chainfunction.vcxproj", "{EFB4486B-47D9-416B-A355-B9F35EBCE1D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{337CD6A4-F559-4FBF-8BE3-AA2ED3FE1DAE}.Release|x64.Build.0 = Release|x64
 		{337CD6A4-F559-4FBF-8BE3-AA2ED3FE1DAE}.Release|x86.ActiveCfg = Release|Win32
 		{337CD6A4-F559-4FBF-8BE3-AA2ED3FE1DAE}.Release|x86.Build.0 = Release|Win32
+		{EFB4486B-47D9-416B-A355-B9F35EBCE1D2}.Debug|x64.ActiveCfg = Debug|x64
+		{EFB4486B-47D9-416B-A355-B9F35EBCE1D2}.Debug|x64.Build.0 = Debug|x64
+		{EFB4486B-47D9-416B-A355-B9F35EBCE1D2}.Debug|x86.ActiveCfg = Debug|Win32
+		{EFB4486B-47D9-416B-A355-B9F35EBCE1D2}.Debug|x86.Build.0 = Debug|Win32
+		{EFB4486B-47D9-416B-A355-B9F35EBCE1D2}.Release|x64.ActiveCfg = Release|x64
+		{EFB4486B-47D9-416B-A355-B9F35EBCE1D2}.Release|x64.Build.0 = Release|x64
+		{EFB4486B-47D9-416B-A355-B9F35EBCE1D2}.Release|x86.ActiveCfg = Release|Win32
+		{EFB4486B-47D9-416B-A355-B9F35EBCE1D2}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
