@@ -18,7 +18,16 @@ public:
 		return this->judul;
 	}
 
-};
+} bukunya;
+
+int main()
+{
+	// bukunya.setJudul("Matematika");
+	// cout << bukunya.getJudul();
+	cout << bukunya.setJudul("Matematika").getJudul(); // chain function calls
+	return 0;
+}
+
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
