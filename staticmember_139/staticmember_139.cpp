@@ -19,7 +19,10 @@ public:
 
 int mahasiswa::nim = 0;
 
+void mahasiswa::setID() {
+    id = ++nim;
 
+}
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
