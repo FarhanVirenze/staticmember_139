@@ -14,8 +14,29 @@ public:
 	mahasiswa(int);
 	mahasiswa(string);
 	mahasiswa(int iNim, string iNama);
-	void cetal();
+	void cetak();
 };
+
+mahasiswa::mahasiswa(){
+	nim = 0;
+	nama = "";
+}
+
+mahasiswa::mahasiswa(int iNim){
+	nim = iNim;
+}
+
+mahasiswa::mahasiswa(string iNama) {
+	nama = iNama;
+}
+
+mahasiswa::mahasiswa(int iNim, string iNama) {
+	nim = iNim;
+	nama = iNama;
+}
+void mahasiswa::cetak() {
+
+}
 
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
