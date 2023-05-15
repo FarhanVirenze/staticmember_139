@@ -16,7 +16,7 @@ public:
 };
 //Definisi Member Function
 angka::angka(int i){ //Constructor
-	panjang = 1;
+	panjang = i;
 	arr = new int[i];
 	isiData();
 }
