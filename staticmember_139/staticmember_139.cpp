@@ -24,6 +24,13 @@ void mahasiswa::setID() {
 
 }
 
+void mahasiswa::printAll() {
+    cout << "ID   = " << id << endl;
+    cout << "Nama = " << nama << endl;
+    cout << endl;
+}
+
+
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
 // Debug program: F5 or Debug > Start Debugging menu
 
