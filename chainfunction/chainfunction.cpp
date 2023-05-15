@@ -13,6 +13,11 @@ public:
 		this->judul = judul;
 		return *this; // chain function
 	}
+	string getJudul()
+	{
+		return this->judul;
+	}
+
 };
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
